@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE54960B2CB179300085081F /* Wortispay_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE54960A2CB179300085081F /* Wortispay_v2App.swift */; };
+		BE54960D2CB179300085081F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE54960C2CB179300085081F /* ContentView.swift */; };
+		BE54960F2CB179320085081F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE54960E2CB179320085081F /* Assets.xcassets */; };
+		BE5496122CB179320085081F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5496112CB179320085081F /* Preview Assets.xcassets */; };
+		BE54961C2CB179330085081F /* Wortispay_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE54961B2CB179330085081F /* Wortispay_v2Tests.swift */; };
+		BE5496262CB179330085081F /* Wortispay_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5496252CB179330085081F /* Wortispay_v2UITests.swift */; };
+		BE5496282CB179330085081F /* Wortispay_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5496272CB179330085081F /* Wortispay_v2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5496182CB179330085081F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5495FF2CB179300085081F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5496062CB179300085081F;
+			remoteInfo = Wortispay_v2;
+		};
+		BE5496222CB179330085081F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5495FF2CB179300085081F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5496062CB179300085081F;
+			remoteInfo = Wortispay_v2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5496072CB179300085081F /* Wortispay_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wortispay_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE54960A2CB179300085081F /* Wortispay_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortispay_v2App.swift; sourceTree = "<group>"; };
+		BE54960C2CB179300085081F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE54960E2CB179320085081F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE5496112CB179320085081F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE5496172CB179330085081F /* Wortispay_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wortispay_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE54961B2CB179330085081F /* Wortispay_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortispay_v2Tests.swift; sourceTree = "<group>"; };
+		BE5496212CB179330085081F /* Wortispay_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wortispay_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5496252CB179330085081F /* Wortispay_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortispay_v2UITests.swift; sourceTree = "<group>"; };
+		BE5496272CB179330085081F /* Wortispay_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortispay_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5496042CB179300085081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5496142CB179330085081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE54961E2CB179330085081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5495FE2CB179300085081F = {
+			isa = PBXGroup;
+			children = (
+				BE5496092CB179300085081F /* Wortispay_v2 */,
+				BE54961A2CB179330085081F /* Wortispay_v2Tests */,
+				BE5496242CB179330085081F /* Wortispay_v2UITests */,
+				BE5496082CB179300085081F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5496082CB179300085081F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5496072CB179300085081F /* Wortispay_v2.app */,
+				BE5496172CB179330085081F /* Wortispay_v2Tests.xctest */,
+				BE5496212CB179330085081F /* Wortispay_v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5496092CB179300085081F /* Wortispay_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				BE54960A2CB179300085081F /* Wortispay_v2App.swift */,
+				BE54960C2CB179300085081F /* ContentView.swift */,
+				BE54960E2CB179320085081F /* Assets.xcassets */,
+				BE5496102CB179320085081F /* Preview Content */,
+			);
+			path = Wortispay_v2;
+			sourceTree = "<group>";
+		};
+		BE5496102CB179320085081F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE5496112CB179320085081F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE54961A2CB179330085081F /* Wortispay_v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE54961B2CB179330085081F /* Wortispay_v2Tests.swift */,
+			);
+			path = Wortispay_v2Tests;
+			sourceTree = "<group>";
+		};
+		BE5496242CB179330085081F /* Wortispay_v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5496252CB179330085081F /* Wortispay_v2UITests.swift */,
+				BE5496272CB179330085081F /* Wortispay_v2UITestsLaunchTests.swift */,
+			);
+			path = Wortispay_v2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5496062CB179300085081F /* Wortispay_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE54962B2CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2" */;
+			buildPhases = (
+				BE5496032CB179300085081F /* Sources */,
+				BE5496042CB179300085081F /* Frameworks */,
+				BE5496052CB179300085081F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wortispay_v2;
+			productName = Wortispay_v2;
+			productReference = BE5496072CB179300085081F /* Wortispay_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE5496162CB179330085081F /* Wortispay_v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE54962E2CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2Tests" */;
+			buildPhases = (
+				BE5496132CB179330085081F /* Sources */,
+				BE5496142CB179330085081F /* Frameworks */,
+				BE5496152CB179330085081F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5496192CB179330085081F /* PBXTargetDependency */,
+			);
+			name = Wortispay_v2Tests;
+			productName = Wortispay_v2Tests;
+			productReference = BE5496172CB179330085081F /* Wortispay_v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE5496202CB179330085081F /* Wortispay_v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5496312CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2UITests" */;
+			buildPhases = (
+				BE54961D2CB179330085081F /* Sources */,
+				BE54961E2CB179330085081F /* Frameworks */,
+				BE54961F2CB179330085081F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5496232CB179330085081F /* PBXTargetDependency */,
+			);
+			name = Wortispay_v2UITests;
+			productName = Wortispay_v2UITests;
+			productReference = BE5496212CB179330085081F /* Wortispay_v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5495FF2CB179300085081F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BE5496062CB179300085081F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BE5496162CB179330085081F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BE5496062CB179300085081F;
+					};
+					BE5496202CB179330085081F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BE5496062CB179300085081F;
+					};
+				};
+			};
+			buildConfigurationList = BE5496022CB179300085081F /* Build configuration list for PBXProject "Wortispay_v2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5495FE2CB179300085081F;
+			productRefGroup = BE5496082CB179300085081F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5496062CB179300085081F /* Wortispay_v2 */,
+				BE5496162CB179330085081F /* Wortispay_v2Tests */,
+				BE5496202CB179330085081F /* Wortispay_v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5496052CB179300085081F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5496122CB179320085081F /* Preview Assets.xcassets in Resources */,
+				BE54960F2CB179320085081F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5496152CB179330085081F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE54961F2CB179330085081F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5496032CB179300085081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE54960D2CB179300085081F /* ContentView.swift in Sources */,
+				BE54960B2CB179300085081F /* Wortispay_v2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5496132CB179330085081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE54961C2CB179330085081F /* Wortispay_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE54961D2CB179330085081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5496262CB179330085081F /* Wortispay_v2UITests.swift in Sources */,
+				BE5496282CB179330085081F /* Wortispay_v2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5496192CB179330085081F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5496062CB179300085081F /* Wortispay_v2 */;
+			targetProxy = BE5496182CB179330085081F /* PBXContainerItemProxy */;
+		};
+		BE5496232CB179330085081F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5496062CB179300085081F /* Wortispay_v2 */;
+			targetProxy = BE5496222CB179330085081F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE5496292CB179330085081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE54962A2CB179330085081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE54962C2CB179330085081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wortispay_v2/Preview Content\"";
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE54962D2CB179330085081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wortispay_v2/Preview Content\"";
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE54962F2CB179330085081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wortispay_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wortispay_v2";
+			};
+			name = Debug;
+		};
+		BE5496302CB179330085081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wortispay_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wortispay_v2";
+			};
+			name = Release;
+		};
+		BE5496322CB179330085081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wortispay_v2;
+			};
+			name = Debug;
+		};
+		BE5496332CB179330085081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5JHB3S8Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cg.wortispay.Wortispay-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wortispay_v2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5496022CB179300085081F /* Build configuration list for PBXProject "Wortispay_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5496292CB179330085081F /* Debug */,
+				BE54962A2CB179330085081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE54962B2CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE54962C2CB179330085081F /* Debug */,
+				BE54962D2CB179330085081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE54962E2CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE54962F2CB179330085081F /* Debug */,
+				BE5496302CB179330085081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5496312CB179330085081F /* Build configuration list for PBXNativeTarget "Wortispay_v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5496322CB179330085081F /* Debug */,
+				BE5496332CB179330085081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5495FF2CB179300085081F /* Project object */;
+}
