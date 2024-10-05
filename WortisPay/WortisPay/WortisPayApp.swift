@@ -1,6 +1,6 @@
 //
-//  Wortispay_v2App.swift
-//  Wortispay_v2
+//  WortisPayApp.swift
+//  WortisPay
 //
 //  Created by Wortis on 05/10/2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Wortispay_v2App: App {
+struct WortisPayApp: App {
     var body: some Scene {
         WindowGroup {
             AuthenticationPage()

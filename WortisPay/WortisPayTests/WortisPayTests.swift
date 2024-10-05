@@ -1,14 +1,14 @@
 //
-//  Wortispay_v2Tests.swift
-//  Wortispay_v2Tests
+//  WortisPayTests.swift
+//  WortisPayTests
 //
 //  Created by Wortis on 05/10/2024.
 //
 
 import XCTest
-@testable import Wortispay_v2
+@testable import WortisPay
 
-final class Wortispay_v2Tests: XCTestCase {
+final class WortisPayTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

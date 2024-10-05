@@ -1,13 +1,13 @@
 //
-//  Wortispay_v2UITestsLaunchTests.swift
-//  Wortispay_v2UITests
+//  WortisPayUITestsLaunchTests.swift
+//  WortisPayUITests
 //
 //  Created by Wortis on 05/10/2024.
 //
 
 import XCTest
 
-final class Wortispay_v2UITestsLaunchTests: XCTestCase {
+final class WortisPayUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
