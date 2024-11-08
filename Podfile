@@ -15,6 +15,7 @@ def flutter_root
   unless File.exist?(generated_xcode_build_settings_path)
     raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
   end
+
   File.foreach(generated_xcode_build_settings_path) do |line|
     matches = line.match(/FLUTTER_ROOT\=(.*)/)
     return matches[1].strip if matches
@@ -23,13 +24,14 @@ def flutter_root
 end
 
 require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
 flutter_ios_podfile_setup
 
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
-  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   target 'RunnerTests' do
     inherit! :search_paths
   end
@@ -39,11 +41,8 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
     
-    # Cibler spécifiquement les packages problématiques
-    if ['shared_preferences_foundation', 'url_launcher_ios'].include? target.name
-      target.build_configurations.each do |config|
-        config.build_settings['EXCLUDED_SOURCE_FILE_NAMES'] = ['PrivacyInfo.xcprivacy']
-      end
+    target.build_configurations.each do |config|
+      config.build_settings['EXCLUDED_SOURCE_FILE_NAMES'] = ['PrivacyInfo.xcprivacy']
     end
   end
 end
